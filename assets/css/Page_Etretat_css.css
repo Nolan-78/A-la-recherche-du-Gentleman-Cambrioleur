@@ -1,0 +1,50 @@
+body {
+    padding: 10px;
+    background-color: #0F172A;
+    color: #F8FAFC;;
+    line-height: 1.2;
+    font-family: "Georgia"
+}
+
+#Contexte {
+    max-width: 1200px;
+    margin: 10px;
+    background-color: #1E293B;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-left: 4px solid #d4af37;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+#Contexte h1{
+    color: #D4AF37;
+}
+
+#map{
+    height: 600px;
+    width: 1200px;
+    margin-left: 10px;
+    border: solid 3px black
+    }
+
+#Mission_1 {
+    max-width: 1200px;
+    margin: 25px;
+}
+
+#Mission_1 h2 {
+    color:#D4AF37;
+}
+
+#lien {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Teinte bleu nuit sur les tuiles de carte pour rappeler l'univers Lupin*/
+.leaflet-tile-pane {
+    filter: sepia(20%) hue-rotate(190deg) brightness(95%) contrast(110%);
+}
